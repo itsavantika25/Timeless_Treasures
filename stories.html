@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timeless Treasures</title>
+  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="stories">
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span>Timeless Treasures</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Menu</span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Gateway</a><a href="monuments.html">Monuments</a><a href="stories.html" aria-current="page">Stories</a><a href="culture.html">Culture</a><a href="threats.html">Threats</a><a href="future.html">Future</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="page-hero manuscript-hero">
+      <img src="assets/chittorgarh.jpeg" alt="Chittorgarh Fort in Rajasthan">
+      <div class="page-hero-copy reveal">
+        <p class="eyebrow">Oral Traditions and Hidden Histories</p>
+        <h1>Forgotten Stories</h1>
+        <p>Legends and local histories are fragile archives. They survive when they are told, heard, questioned, and retold.</p>
+      </div>
+    </section>
+
+    <section class="section story-timeline">
+      <article class="story-panel reveal">
+        <p class="tag">Rajasthan</p>
+        <h2>Echoes of Chittorgarh</h2>
+        <p>Stories of courage, sacrifice, and memory surround Chittorgarh Fort. The page treats the fort as a living manuscript where each wall carries a different version of remembrance.</p>
+      </article>
+      <article class="story-panel reveal">
+        <p class="tag">Karnataka</p>
+        <h2>The City of Hampi</h2>
+        <p>Local narratives around Vijayanagara speak of trade, temples, music, and sudden ruin. The ruins become a stage where grandeur and loss exist together.</p>
+      </article>
+      <article class="story-panel reveal">
+        <p class="tag">Maharashtra</p>
+        <h2>Hill Fort Memory</h2>
+        <p>Forts across the Sahyadris carry accounts of resistance, strategy, and community identity. Their paths preserve more than military history.</p>
+      </article>
+      <article class="story-panel reveal">
+        <p class="tag">Northeast India</p>
+        <h2>Songs as Archives</h2>
+        <p>Many communities preserve origin stories, harvest cycles, and ancestral knowledge through performance, rhythm, and collective memory.</p>
+      </article>
+    </section>
+
+    <section class="section story-explorer">
+      <div class="story-stage reveal">
+        <p class="eyebrow">Choose a memory thread</p>
+        <h2 id="story-title">The Stepwell That Held a City</h2>
+        <p id="story-region" class="tag">Gujarat | Water architecture</p>
+        <p id="story-text">Stepwells were not only water systems. They were cool shelters, meeting places, carved archives, and spiritual thresholds where engineering and devotion met underground.</p>
+      </div>
+      <div class="story-choices reveal" aria-label="Story selector">
+        <button type="button" class="is-active" data-story-title="The Stepwell That Held a City" data-story-region="Gujarat | Water architecture" data-story-text="Stepwells were not only water systems. They were cool shelters, meeting places, carved archives, and spiritual thresholds where engineering and devotion met underground.">Stepwell Memory</button>
+        <button type="button" data-story-title="A Fort Above the Clouds" data-story-region="Maharashtra | Hill forts" data-story-text="Hill forts shaped routes, resistance, and regional identity. Their stories live in climb paths, watchpoints, village songs, and the discipline of communities who cared for them.">Hill Forts</button>
+        <button type="button" data-story-title="Songs of the Harvest" data-story-region="Northeast India | Oral traditions" data-story-text="Harvest songs carry ecological knowledge, ancestry, seasons, and celebration. When they are performed, the community remembers together.">Harvest Songs</button>
+        <button type="button" data-story-title="The Market Beside the Temple" data-story-region="Tamil Nadu | Living sacred towns" data-story-text="Temple towns preserve more than worship. They hold flower sellers, bronze casters, musicians, cooks, pilgrims, and street patterns shaped by centuries of ritual life.">Temple Towns</button>
+      </div>
+    </section>
+
+    <section class="section split-section">
+      <div class="section-copy reveal">
+        <p class="eyebrow">Why stories matter</p>
+        <h2>Oral heritage disappears quietly</h2>
+        <p>When a language fades or a storyteller is not heard, history loses texture. Digital storytelling can document voices without turning them into museum dust.</p>
+      </div>
+      <div class="glow-list reveal">
+        <button type="button">Folklore keeps local values alive.</button>
+        <button type="button">Freedom narratives connect places to courage.</button>
+        <button type="button">Sacred myths explain landscapes and rituals.</button>
+        <button type="button">Community memory gives history a human voice.</button>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><p>Next chapter: culture that is still alive.</p><a href="culture.html">Open Culture</a></footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
