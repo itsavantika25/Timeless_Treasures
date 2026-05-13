@@ -171,22 +171,24 @@
   </audio>
 
   <script>
-    const music = document.getElementById("bg-music");
+   const music = document.getElementById("bg-music");
 
-    document.addEventListener("click", async () => {
-      if (!document.fullscreenElement) {
-        await document.documentElement.requestFullscreen();
-      }
-      music.volume = 1;
-
-      try {
-        await music.play();
-        console.log("Music started");
-      } catch (err) {
-        console.log("Autoplay blocked:", err);
-      }
-
-    }, { once: true });
+document.addEventListener("click", async () => {
+  try {
+    if (!document.fullscreenElement) {
+      await document.documentElement.requestFullscreen();
+    }
+  } catch (err) {
+    console.log("Fullscreen denied (that's okay):", err);
+  }
+  music.volume = 1;
+  try {
+    await music.play();
+    console.log("Music started");
+  } catch (err) {
+    console.log("Autoplay blocked:", err);
+  }
+}, { once: true });
   </script>
 </body>
 </html>
