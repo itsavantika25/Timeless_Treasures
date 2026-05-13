@@ -7,6 +7,11 @@
   font-family: "Romaunt";
   src: url(../romaunt-gaolines.ttf);
 }
+
+@font-face {
+  font-family: "DM Sans";
+  src: url(../DMSans-Regular.ttf);
+}
 :root {
   --black: #060606;
   --panel: rgba(18, 16, 14, 0.72);
@@ -761,6 +766,7 @@ dl {
   display: grid;
   gap: 0.4rem;
   margin: 1rem 0 0;
+  font-family: "DM Sans";
 }
 
 dt {
@@ -1370,6 +1376,7 @@ dd {
 .main-text{
   font-family: "The Seasons";
   font-weight: 100;
+  color: #F5C380;
 }
 
 .hero-copy{
@@ -1383,5 +1390,12 @@ span{
 }
 
 .body-text{
-  font-family: "DM Sans" sans-serif;
+  font-family: "DM Sans";
+  font-weight: 100;
+}
+
+.box-header{
+  font-family: "Romaunt";
+  font-size: 40px;
+  color: #D28861;
 }
