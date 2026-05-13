@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "The Seasons";
+  src: url(../The\ Seasons\ Regular.ttf);
+}
+
+@font-face {
+  font-family: "Romaunt";
+  src: url(../romaunt-gaolines.ttf);
+}
 :root {
   --black: #060606;
   --panel: rgba(18, 16, 14, 0.72);
@@ -80,6 +89,7 @@ img {
 a {
   color: inherit;
   text-decoration: none;
+  font-family: "The Seasons";
 }
 
 button,
@@ -690,8 +700,8 @@ h3 {
   max-width: 56rem;
   margin: 0;
   color: var(--gold-soft);
-  font-family: Cinzel, serif;
-  font-size: clamp(1.8rem, 4vw, 4.5rem);
+  font-family: "Romaunt";
+  font-size: clamp(2rem, 5vw, 8rem);
   line-height: 1.16;
 }
 
@@ -1356,4 +1366,22 @@ dd {
     opacity: 1;
     transform: none;
   }
+}
+.main-text{
+  font-family: "The Seasons";
+  font-weight: 100;
+}
+
+.hero-copy{
+  font-family: "DM Sans";
+  font-weight: 200;
+}
+
+span{
+  font-family: "The Seasons";
+  font-weight: 100;
+}
+
+.body-text{
+  font-family: "DM Sans" sans-serif;
 }

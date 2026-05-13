@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +8,23 @@
   <link rel="icon" href="data:,">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body data-page="future">
   <div class="cursor-glow" aria-hidden="true"></div>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <a class="brand" href="index.html"><span>Timeless Treasures</span></a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Menu</span></button>
+    <button class="nav-toggle" type="button" aria-expanded="false"
+      aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Menu</span></button>
     <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-      <a href="index.html">Gateway</a><a href="monuments.html">Monuments</a><a href="stories.html">Stories</a><a href="culture.html">Culture</a><a href="threats.html">Threats</a><a href="future.html" aria-current="page">Future</a>
+      <a href="index.html">Gateway</a><a href="monuments.html">Monuments</a><a href="stories.html">Stories</a><a
+        href="culture.html">Culture</a><a href="threats.html">Threats</a><a href="future.html"
+        aria-current="page">Future</a>
     </nav>
   </header>
   <main id="main">
@@ -25,27 +32,76 @@
       <img src="assets/hampi.jpeg" alt="Hampi heritage monument">
       <div class="page-hero-copy reveal">
         <p class="eyebrow">Technology and Preservation</p>
-        <h1>Future of Heritage</h1>
-        <p>Innovation can document, restore, teach, and protect culture when it serves communities instead of replacing them.</p>
+        <h1 class="main-text">Future of Heritage</h1>
+        <p class="body-text">Innovation can document, restore, teach, and protect culture when it serves communities
+          instead of replacing them.</p>
       </div>
     </section>
 
     <section class="section future-flow">
-      <article class="dash-card reveal"><span>AI</span><h2>Restoration Models</h2><p>Machine learning can help identify damage, reconstruct missing visual patterns, and guide conservation planning.</p></article>
-      <article class="dash-card reveal"><span>AR</span><h2>Layered Tourism</h2><p>Augmented reality can reveal vanished structures, translated inscriptions, and historic scenes on-site.</p></article>
-      <article class="dash-card reveal"><span>VR</span><h2>Virtual Museums</h2><p>Immersive spaces allow students to visit fragile or distant sites without physical pressure on monuments.</p></article>
-      <article class="dash-card reveal"><span>3D</span><h2>Drone Scanning</h2><p>Photogrammetry and laser scanning preserve precise models for research, repair, and disaster recovery.</p></article>
-      <article class="dash-card reveal"><span>DB</span><h2>Digital Archives</h2><p>Open archives can store images, oral histories, maps, craft processes, and endangered language material.</p></article>
-      <article class="dash-card reveal"><span>IoT</span><h2>Smart Protection</h2><p>Sensors can monitor humidity, vibration, crowding, and pollution near sensitive heritage sites.</p></article>
+      <article class="dash-card reveal"><span>AI</span>
+        <h2 class="main-text" id="restoration">Restoration Models</h2>
+        <p class="body-text">Machine learning can help identify damage, reconstruct missing visual patterns, and guide
+          conservation planning.</p>
+      </article>
+      <article class="dash-card reveal"><span>AR</span>
+        <h2 class="main-text">Layered Tourism</h2>
+        <p class="body-text">Augmented reality can reveal vanished structures, translated inscriptions, and historic
+          scenes on-site.</p>
+      </article>
+      <article class="dash-card reveal"><span>VR</span>
+        <h2 class="main-text">Virtual Museums</h2>
+        <p class="body-text">Immersive spaces allow students to visit fragile or distant sites without physical pressure
+          on monuments.</p>
+      </article>
+      <article class="dash-card reveal"><span>3D</span>
+        <h2 class="main-text">Drone Scanning</h2>
+        <p class="body-text">Photogrammetry and laser scanning preserve precise models for research, repair, and
+          disaster recovery.</p>
+      </article>
+      <article class="dash-card reveal"><span>DB</span>
+        <h2 class="main-text">Digital Archives</h2>
+        <p class="body-text">Open archives can store images, oral histories, maps, craft processes, and endangered
+          language material.</p>
+      </article>
+      <article class="dash-card reveal"><span>IoT</span>
+        <h2 class="main-text">Smart Protection</h2>
+        <p class="body-text">Sensors can monitor humidity, vibration, crowding, and pollution near sensitive heritage
+          sites.</p>
+      </article>
     </section>
 
     <section class="section quote-section reveal">
-      <p>Technology should act like a careful archivist: precise, patient, and guided by the communities whose memory it protects.</p>
+      <p>Technology should act like a careful archivist: precise, patient, and guided by the communities whose memory it
+        protects.</p>
     </section>
   </main>
-  <footer class="site-footer"><p>Return to the gateway.</p><a href="index.html">Back Home</a></footer>
+  <footer class="site-footer">
+    <p class="box-header">Return to the gateway.</p><a href="index.html">Back Home</a>
+  </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="js/main.js"></script>
+  <audio id="bg-music" loop autoplay>
+    <source src="./Interstellar Main Theme - Extra Extended - Soundtrack by  Hans Zimmer - Cinémavore.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    const music = document.getElementById("bg-music");
+
+    document.addEventListener("click", async () => {
+      if (!document.fullscreenElement) {
+        await document.documentElement.requestFullscreen();
+      }
+      music.volume = 1;
+      try {
+        await music.play();
+        console.log("Music started");
+      } catch (err) {
+        console.log("Autoplay blocked:", err);
+      }
+
+    }, { once: true });
+  </script>
 </body>
 </html>

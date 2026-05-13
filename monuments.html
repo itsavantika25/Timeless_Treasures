@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +8,23 @@
   <link rel="icon" href="data:,">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body data-page="monuments">
   <div class="cursor-glow" aria-hidden="true"></div>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <a class="brand" href="index.html"><span>Timeless Treasures</span></a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Menu</span></button>
+    <button class="nav-toggle" type="button" aria-expanded="false"
+      aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Menu</span></button>
     <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-      <a href="index.html">Gateway</a><a href="monuments.html" aria-current="page">Monuments</a><a href="stories.html">Stories</a><a href="culture.html">Culture</a><a href="threats.html">Threats</a><a href="future.html">Future</a>
+      <a href="index.html">Gateway</a><a href="monuments.html" aria-current="page">Monuments</a><a
+        href="stories.html">Stories</a><a href="culture.html">Culture</a><a href="threats.html">Threats</a><a
+        href="future.html">Future</a>
     </nav>
   </header>
   <main id="main">
@@ -25,51 +32,84 @@
       <img src="assets/redfort-good.jpg" alt="Red Fort in restored condition">
       <div class="page-hero-copy reveal">
         <p class="eyebrow">Architectural Heritage</p>
-        <h1>Historical Monuments</h1>
-        <p>Explore India's built memory through forts, temples, minarets, mausoleums, caves, and living sacred spaces.</p>
+        <h1 class="main-text">Historical Monuments</h1>
+        <p class="body-text">Explore India's built memory through forts, temples, minarets, mausoleums, caves, and living sacred spaces.
+        </p>
       </div>
     </section>
 
     <section class="section">
       <div class="section-heading reveal">
         <p class="eyebrow">Interactive monument archive</p>
-        <h2>Structures that still speak</h2>
+        <h2 class="main-text">Structures that still speak</h2>
       </div>
       <div class="monument-grid">
         <article class="info-card reveal">
           <img src="assets/qutabminar.jpeg" alt="Qutub Minar in Delhi">
           <div>
             <p class="tag">Delhi | 1190s</p>
-            <h3>Qutub Minar</h3>
-            <p>Indo-Islamic architecture marked by red sandstone, inscriptions, and layered dynastic history.</p>
-            <dl><dt>Status</dt><dd>Protected monument</dd><dt>Hidden detail</dt><dd>Arabic and Nagari inscriptions trace multiple building phases.</dd></dl>
+            <h3 class="box-header">Qutub Minar</h3>
+            <p class="body-text">Indo-Islamic architecture marked by red sandstone, inscriptions, and layered dynastic
+              history. It stands 73 meters tall, built by Qutb-ud-din Aibak in 1193. This UNESCO World Heritage Site
+              features five distinct storeys with intricate carvings and verses from the Quran.</p>
+            <dl>
+              <dt>Status</dt>
+              <dd>Protected monument</dd>
+              <dt>Hidden detail</dt>
+              <dd>Arabic and Nagari inscriptions trace multiple building phases.</dd>
+            </dl>
           </div>
         </article>
         <article class="info-card reveal">
           <img src="assets/hawamahal.jpeg" alt="Hawa Mahal in Jaipur">
           <div>
             <p class="tag">Rajasthan | 1799</p>
-            <h3>Hawa Mahal</h3>
-            <p>A palace facade designed for ventilation, privacy, and urban spectacle in Jaipur's royal streetscape.</p>
-            <dl><dt>Status</dt><dd>Conserved heritage landmark</dd><dt>Style</dt><dd>Rajput and Mughal influences</dd></dl>
+            <h3 class="box-header">Hawa Mahal</h3>
+            <p class="body-text">A palace facade designed for ventilation, privacy, and urban spectacle in Jaipur's
+              royal streetscape. It was constructed in 1799 by Maharaja Sawai Pratap Singh. Its distinct pink sandstone
+              façade contains 953 small windows (jharokhas) designed for royal women to observe street festivals while
+              maintaining purdah. The five-storey structure resembles Lord Krishna's crown and exemplifies Rajputana
+              architecture with its honeycomb design.</p>
+            <dl>
+              <dt>Status</dt>
+              <dd>Conserved heritage landmark</dd>
+              <dt>Style</dt>
+              <dd>Rajput and Mughal influences</dd>
+            </dl>
           </div>
         </article>
         <article class="info-card reveal">
           <img src="assets/konark.jpg" alt="Konark Sun Temple in Odisha">
           <div>
             <p class="tag">Odisha | 13th century</p>
-            <h3>Konark Sun Temple</h3>
-            <p>A monumental stone chariot dedicated to Surya, celebrated for scale, sculpture, and astronomical symbolism.</p>
-            <dl><dt>Status</dt><dd>UNESCO World Heritage Site</dd><dt>Threat</dt><dd>Weathering and structural fragility</dd></dl>
+            <h3 class="box-header">Konark Sun Temple</h3>
+            <p class="body-text">A monumental stone chariot dedicated to Surya, celebrated for scale, sculpture, and
+              astronomical symbolism. Built in the 13th century by King Narasimhadeva I, it resembles a colossal chariot
+              with twelve pairs of intricately carved stone wheels. Dedicated to Surya, the Sun God, this UNESCO site
+              showcases Kalinga architecture through intricate erotic sculptures and astronomical precision.</p>
+            <dl>
+              <dt>Status</dt>
+              <dd>UNESCO World Heritage Site</dd>
+              <dt>Threat</dt>
+              <dd>Weathering and structural fragility</dd>
+            </dl>
           </div>
         </article>
         <article class="info-card reveal">
           <img src="assets/brihadeeswarar.webp" alt="Brihadeeswarar Temple in Thanjavur">
           <div>
             <p class="tag">Tamil Nadu | 1010</p>
-            <h3>Brihadeeswarar Temple</h3>
-            <p>A Chola masterpiece that combines devotion, geometry, mural traditions, and engineering ambition.</p>
-            <dl><dt>Status</dt><dd>UNESCO World Heritage Site</dd><dt>Style</dt><dd>Dravidian architecture</dd></dl>
+            <h3 class="box-header">Brihadeeswarar Temple</h3>
+            <p class="body-text">A Chola masterpiece that combines devotion, geometry, mural traditions, and engineering
+              ambition. Thanjavur's Brihadeshwara Temple, completed in 1010 CE by Raja Raja Chola I, this temple is the
+              epitomy of Dravidian architecture. Its 66-meter vimana (tower) is crowned by an 80-ton granite capstone.
+            </p>
+            <dl class="body-text">
+              <dt>Status</dt>
+              <dd>UNESCO World Heritage Site</dd>
+              <dt>Style</dt>
+              <dd>Dravidian architecture</dd>
+            </dl>
           </div>
         </article>
       </div>
@@ -78,19 +118,46 @@
     <section class="section comparison-section">
       <div class="section-copy reveal">
         <p class="eyebrow">Before vs after</p>
-        <h2>Conservation changes what the future inherits</h2>
-        <p>Drag the slider to reveal a symbolic restoration layer. The interface represents how cleaning, stabilizing, documenting, and managing visitor pressure can rescue endangered structures.</p>
+        <h2 class="main-text">Conservation changes what the future inherits</h2>
+        <p class="body-text">Drag the slider to reveal a symbolic restoration layer. The interface represents how
+          cleaning, stabilizing, documenting, and managing visitor pressure can rescue endangered structures.</p>
       </div>
-      <div class="compare-widget reveal" data-compare data-position="55" tabindex="0" role="slider" aria-label="Drag to compare Red Fort preservation condition" aria-valuemin="5" aria-valuemax="95" aria-valuenow="55">
+      <div class="compare-widget reveal" data-compare data-position="55" tabindex="0" role="slider"
+        aria-label="Drag to compare Red Fort preservation condition" aria-valuemin="5" aria-valuemax="95"
+        aria-valuenow="55">
         <img class="compare-base" src="assets/redfort-threat.jpg" alt="Red Fort under preservation threat">
         <div class="compare-overlay"><img src="assets/redfort-good.jpg" alt="Red Fort in preserved condition"></div>
         <div class="compare-divider" aria-hidden="true"></div>
       </div>
     </section>
   </main>
-  <footer class="site-footer"><p>Next chapter: hidden histories and oral memory.</p><a href="stories.html">Open Stories</a></footer>
+  <footer class="site-footer">
+    <p class="box-header">Next chapter: hidden histories and oral memory.</p><a href="stories.html">Open Stories</a>
+  </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="js/main.js"></script>
+  <audio id="bg-music" loop autoplay>
+    <source src="./Interstellar Main Theme - Extra Extended - Soundtrack by  Hans Zimmer - Cinémavore.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    const music = document.getElementById("bg-music");
+
+    document.addEventListener("click", async () => {
+      if (!document.fullscreenElement) {
+        await document.documentElement.requestFullscreen();
+      }
+      music.volume = 1;
+
+      try {
+        await music.play();
+        console.log("Music started");
+      } catch (err) {
+        console.log("Autoplay blocked:", err);
+      }
+
+    }, { once: true });
+  </script>
 </body>
 </html>

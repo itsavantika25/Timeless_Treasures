@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +8,23 @@
   <link rel="icon" href="data:,">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body data-page="threats" class="threat-mode">
   <div class="cursor-glow" aria-hidden="true"></div>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <a class="brand" href="index.html"><span>Timeless Treasures</span></a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Menu</span></button>
+    <button class="nav-toggle" type="button" aria-expanded="false"
+      aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Menu</span></button>
     <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-      <a href="index.html">Gateway</a><a href="monuments.html">Monuments</a><a href="stories.html">Stories</a><a href="culture.html">Culture</a><a href="threats.html" aria-current="page">Threats</a><a href="future.html">Future</a>
+      <a href="index.html">Gateway</a><a href="monuments.html">Monuments</a><a href="stories.html">Stories</a><a
+        href="culture.html">Culture</a><a href="threats.html" aria-current="page">Threats</a><a
+        href="future.html">Future</a>
     </nav>
   </header>
   <main id="main">
@@ -25,34 +32,64 @@
       <img src="assets/taj-mahal-threat.webp" alt="Threatened monument under a hazy sky">
       <div class="page-hero-copy reveal">
         <p class="eyebrow">Cultural Preservation Crisis</p>
-        <h1>Heritage Under Threat</h1>
-        <p>Pollution, crowd pressure, careless development, neglect, and cultural loss can erase memory before people notice it is gone.</p>
+        <h1 class="main-text">Heritage Under Threat</h1>
+        <p class="body-text">Pollution, crowd pressure, careless development, neglect, and cultural loss can erase
+          memory before people notice it is gone.</p>
       </div>
     </section>
 
     <section class="section threat-flow">
-      <article class="stat-card reveal"><strong>Pollution</strong><span>Air, water, and surface damage weaken stone, paint, metal, and fragile decorative details.</span></article>
-      <article class="stat-card reveal"><strong>Urbanization</strong><span>Rapid growth pushes roads, crowds, noise, and construction pressure into older cultural zones.</span></article>
-      <article class="stat-card reveal"><strong>Neglect</strong><span>Small cracks, poor drainage, missing documentation, and weak maintenance become permanent loss over time.</span></article>
-      <article class="stat-card reveal"><strong>Cultural loss</strong><span>Languages, craft lineages, rituals, and oral histories fade when younger generations are not connected to them.</span></article>
+      <article class="stat-card reveal"><strong class="main-text">Pollution</strong><span>Air, water, and surface damage
+          weaken stone, paint, metal, and fragile decorative details. It silently erodes our irreplaceable heritage monuments through hidden chemical attacks. Acid rain, formed when industrial emissions mix with atmospheric moisture, corrodes marble and limestone surfaces, decimating intricate carvings accumulated over centuries. Airborne particulates settle into stone pores, causing discoloration and structural weakening. The Taj Mahal's yellowing marble and Parthenon's corroding sculptures exemplify this tragedy.</span></article>
+      <article class="stat-card reveal"><strong class="main-text">Urbanization</strong><span>Rapid growth pushes roads,
+          crowds, noise, and construction pressure into older cultural zones.</span></article>
+      <article class="stat-card reveal"><strong class="main-text">Neglect</strong><span>Small cracks, poor drainage,
+          missing documentation, and weak maintenance become permanent loss over time.</span></article>
+      <article class="stat-card reveal"><strong class="main-text">Cultural loss</strong><span>Languages, craft lineages,
+          rituals, and oral histories fade when younger generations are not connected to them.</span></article>
     </section>
 
     <section class="section comparison-section">
-      <div class="compare-widget broken reveal" data-compare data-position="48" tabindex="0" role="slider" aria-label="Drag to compare Taj Mahal preservation condition" aria-valuemin="5" aria-valuemax="95" aria-valuenow="48">
+      <div class="compare-widget broken reveal" data-compare data-position="48" tabindex="0" role="slider"
+        aria-label="Drag to compare Taj Mahal preservation condition" aria-valuemin="5" aria-valuemax="95"
+        aria-valuenow="48">
         <img class="compare-base" src="assets/taj-mahal-threat.webp" alt="Taj Mahal under preservation threat">
         <div class="compare-overlay"><img src="assets/tajmahal-good.jpeg" alt="Taj Mahal in preserved condition"></div>
         <div class="compare-divider" aria-hidden="true"></div>
       </div>
       <div class="section-copy reveal">
         <p class="eyebrow">Damage comparison</p>
-        <h2>The crisis is visible when we look closely</h2>
-        <p>Threats are not abstract. They appear as cracks, stains, missing craft lineages, displaced communities, and traditions that no longer have time or space to continue.</p>
+        <h2 class="main-text">The crisis is visible when we look closely</h2>
+        <p class="body-text">Threats are not abstract. They appear as cracks, stains, missing craft lineages, displaced
+          communities, and traditions that no longer have time or space to continue.</p>
       </div>
     </section>
   </main>
-  <footer class="site-footer"><p>Final chapter: preservation through technology.</p><a href="future.html">Open Future</a></footer>
+  <footer class="site-footer">
+    <p class="box-header">Final chapter: preservation through technology.</p><a href="future.html">Open Future</a>
+  </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="js/main.js"></script>
+  <audio id="bg-music" loop autoplay>
+    <source src="./Interstellar Main Theme - Extra Extended - Soundtrack by  Hans Zimmer - Cinémavore.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    const music = document.getElementById("bg-music");
+
+    document.addEventListener("click", async () => {
+      if (!document.fullscreenElement) {
+        await document.documentElement.requestFullscreen();
+      }
+      music.volume = 1;
+      try {
+        await music.play();
+        console.log("Music started");
+      } catch (err) {
+        console.log("Autoplay blocked:", err);
+      }
+    }, { once: true });
+  </script>
 </body>
 </html>
